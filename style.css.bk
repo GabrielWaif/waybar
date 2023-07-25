@@ -42,7 +42,7 @@ tooltip {
 	border-radius: 15px;
 }
 
-#custom-keyboard-layout, #custom-updates, #custom-power, #custom-date, #clock, #pulseaudio, #network, #sway-language, #tray {
+#custom-power, #custom-date, #custom-updates, #clock, #pulseaudio, #network, #tray {
 	background-color: #181825;
 	padding: 5px 10px;
 	margin: 5px 0px;
@@ -52,8 +52,16 @@ tooltip {
   padding-left: 15px;
 }
 
+#custom-date {
+  color: #ebbcba;
+}
+
+#custom-updates {
+   color: #9ccfd8;
+}
+
 #network {
-	color: #31748f;
+	color: #9ccfd8;
 	border-radius: 0px 0px 0px 0px;
 }
 
@@ -61,18 +69,8 @@ tooltip {
 	color: #f6c177;
 }
 
-#clock {
-	color: #eb6f92;
-}
-
-#custom-keyboard-layout {
-	color: #9ccfd8;
-}
-
 #custom-power {
-	color: #d7827e;
-}
-
-#custom-updates {
-	color: #c4a7e7;
+  color: #eb6f92;
+  border-radius: 0px 15px 15px 0px;
+  margin-right: 10px;
 }
