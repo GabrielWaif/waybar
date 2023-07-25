@@ -1,11 +1,12 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: mononoki Nerd Font;
+    font-family: JetbrainMono Nerd Font;
     font-size: 14px;
     min-height: 0;
 }
 
+/* Backgroud of the bar */
 #waybar {
     background: transparent;
     color: white;
@@ -44,8 +45,9 @@ tooltip {
 
 #custom-keyboard-layout, #custom-updates, #custom-power, #custom-date, #clock, #pulseaudio, #network, #sway-language, #tray {
 	background-color: #181825;
-	padding: 5px 10px;
+	padding: 5px 15px;
 	margin: 5px 0px;
+    border-radius: 7px;
 }
 
 #tray {
@@ -54,7 +56,6 @@ tooltip {
 
 #network {
 	color: #31748f;
-	border-radius: 0px 0px 0px 0px;
 }
 
 #pulseaudio {
