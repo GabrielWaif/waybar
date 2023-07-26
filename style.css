@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: JetbrainMono Nerd Font;
+    font-family: "JetBrainsMono Nerd Font";
     font-size: 14px;
     min-height: 0;
 }
@@ -43,15 +43,11 @@ tooltip {
 	border-radius: 15px;
 }
 
-#custom-keyboard-layout, #custom-updates, #custom-power, #custom-date, #clock, #pulseaudio, #network, #sway-language, #tray {
+#custom-keyboard-layout, #custom-updates, #custom-power, #custom-date, #clock, #pulseaudio, #network, #sway-language, #battery{
 	background-color: #181825;
 	padding: 5px 15px;
 	margin: 5px 0px;
     border-radius: 7px;
-}
-
-#tray {
-  padding-left: 15px;
 }
 
 #network {
