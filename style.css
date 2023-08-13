@@ -6,9 +6,8 @@
     min-height: 0;
 }
 
-/* Backgroud of the bar */
 #waybar {
-    background: transparent;
+    background-color: transparent;
     color: white;
 }
 
@@ -28,27 +27,25 @@ tooltip {
 #workspaces button.focused {
     color: #282828;
     background-color: #d79921;
-    border-radius: 15px;
+    border-radius: 100%;
 }
 
 #workspaces button.urgent {
     color: #282828;
     background-color: #458588;
-    border-radius: 15px;
+    border-radius: 100%;
 }
 
 #workspaces button:hover {
 	background-color: #d79921;
 	color: #282828;
-	border-radius: 15px;
+    border-radius: 100%;
 }
 
-#custom-keyboard-layout, #custom-updates, #custom-power, #custom-date, #clock, #pulseaudio, #network, #sway-language, #battery{
+#custom-keyboard-layout, #custom-updates, #custom-date, #clock, #pulseaudio, #network, #sway-language, #battery{
 	background-color: #282828;
     color: #fbf1c7;
-	padding: 5px 15px;
-	margin: 5px 0px;
-    border-radius: 7px;
+	padding: 10px 15px;
 }
 
 #network {
@@ -57,16 +54,14 @@ tooltip {
 
 #pulseaudio {
 	color: #b16286;
+    border-radius: 0px 0px 0px 15px;
 }
 
 #clock {
 	color: #689d6a;
 }
 
-#custom-power {
-	color: #cc241d;
-}
-
-#custom-updates {
-	color: #282828;
+#battery {
+    border-radius: 0px 0px 15px 0px;
+    padding-right: 25px;
 }

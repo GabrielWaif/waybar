@@ -2,9 +2,9 @@
     "layer": "top",
     "position": "top",
     "height": 30,
-    "spacing": 4,
+    "spacing": 0,
     "modules-left": ["sway/workspaces"],
-    "modules-center": ["pulseaudio", "network", "custom/updates", "clock", "battery", "custom/power" ],
+    "modules-center": ["pulseaudio", "network", "clock", "battery" ],
     "battery": {
         "states": {
             "warning": 30,
