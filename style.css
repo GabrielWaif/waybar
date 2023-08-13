@@ -13,7 +13,7 @@
 }
 
 tooltip {
-	background: #0f0f0f;
+	background: #282828;
 	border-radius: 15px;
 	border-width: 2px;
 	border-style: solid;
@@ -22,54 +22,51 @@ tooltip {
 
 #workspaces button {
     padding: 5px 10px;
-    color: #cba6f7;
+    color: #d79921;
 }
 
 #workspaces button.focused {
-    color: #0f0f0f;
-    background-color: #c49ec4;
+    color: #282828;
+    background-color: #d79921;
     border-radius: 15px;
 }
 
 #workspaces button.urgent {
-    color: #0f0f0f;
-    background-color: #9ec3c4;
+    color: #282828;
+    background-color: #458588;
     border-radius: 15px;
 }
 
 #workspaces button:hover {
-	background-color: #c49ec4;
-	color: #0f0f0f;
+	background-color: #d79921;
+	color: #282828;
 	border-radius: 15px;
 }
 
 #custom-keyboard-layout, #custom-updates, #custom-power, #custom-date, #clock, #pulseaudio, #network, #sway-language, #battery{
-	background-color: #181825;
+	background-color: #282828;
+    color: #fbf1c7;
 	padding: 5px 15px;
 	margin: 5px 0px;
     border-radius: 7px;
 }
 
 #network {
-	color: #31748f;
+	color: #458588;
 }
 
 #pulseaudio {
-	color: #f6c177;
+	color: #b16286;
 }
 
 #clock {
-	color: #eb6f92;
-}
-
-#custom-keyboard-layout {
-	color: #9ccfd8;
+	color: #689d6a;
 }
 
 #custom-power {
-	color: #d7827e;
+	color: #cc241d;
 }
 
 #custom-updates {
-	color: #c4a7e7;
+	color: #282828;
 }
