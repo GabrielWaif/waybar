@@ -28,18 +28,21 @@ tooltip {
     color: #282828;
     background-color: #d79921;
     border-radius: 100%;
+	padding: 10px 12px;
 }
 
 #workspaces button.urgent {
     color: #282828;
     background-color: #458588;
     border-radius: 100%;
+	padding: 10px 12px;
 }
 
 #workspaces button:hover {
 	background-color: #d79921;
 	color: #282828;
     border-radius: 100%;
+	padding: 10px 12px;
 }
 
 #custom-keyboard-layout, #custom-updates, #custom-date, #clock, #pulseaudio, #network, #sway-language, #battery{
